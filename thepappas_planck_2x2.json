@@ -1,8 +1,9 @@
 {
   "version": 1,
-  "documentation": "This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\n",
+  "notes": "My awesome keymap v1.8",
+  "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "planck/rev6_drop",
-  "keymap": "thepappas_planck_2x2_v110",
+  "keymap": "thepappas_planck_2x2_v200",
   "layout": "LAYOUT_planck_2x2u",
   "layers": [
     [
@@ -19,16 +20,16 @@
       "KC_P",
       "KC_BSPC",
       "KC_TAB",
-      "KC_A",
-      "KC_S",
-      "KC_D",
-      "KC_F",
+      "LGUI_T(KC_A)",
+      "LALT_T(KC_S)",
+      "LCTL(KC_D)",
+      "LSFT_T(KC_F)",
       "KC_G",
       "KC_H",
-      "KC_J",
-      "KC_K",
-      "KC_L",
-      "KC_SCLN",
+      "RSFT_T(KC_J)",
+      "RCTL_T(KC_K)",
+      "RALT_T(KC_L)",
+      "LGUI_T(KC_SCLN)",
       "KC_QUOT",
       "KC_LSPO",
       "KC_Z",
@@ -95,7 +96,7 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_SPC",
+      "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -142,7 +143,7 @@
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_ENT",
+      "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
@@ -246,6 +247,5 @@
       "KC_TRNS"
     ]
   ],
-  "author": "ThePappas",
-  "notes": "My awesome keymap v1.8"
+  "author": "ThePappas"
 }
